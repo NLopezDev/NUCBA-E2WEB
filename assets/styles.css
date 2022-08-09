@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 30px 30px;
+}
+
+.logo{
+    width: 280px;
+}
+
+.navbar, .navbar-list{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.navbar{
+    gap: 150px;
+}
+
+.navbar-list{
+    gap: 40px;
+}
