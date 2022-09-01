@@ -4,8 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    background-color: black;
 }
+
 
 header{
     width: 100%;
@@ -34,3 +34,122 @@ justify-content: center;
 .navbar-list{
     gap: 40px;
 }
+
+.navbar-list li > a {
+    color: white;
+    font-weight: 600;
+}
+
+body {
+    background-image: linear-gradient(180deg, #474747 0%, #057dc7 100%);}
+  
+  * {
+    padding: 0%;
+    margin: 0%; }
+  
+  .imagenPortada {
+    height: 90%;
+    width: 100%; }
+  
+  .tit {
+    font-size: 480%;
+    color: white;
+    text-decoration: overline;
+    text-align: center;
+    margin: 15% 0% 45% 0%; }
+  
+  h2 {
+    font-size: 380%;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    margin: 3% 0% 3% 0%; }
+  
+    .staff{
+      margin-top: 10rem;
+      margin-bottom: 5rem;
+    }
+  
+    h5{
+      color: white;
+      padding-bottom: 5%;
+    }
+  
+  h3 {
+    font-size: 380%;
+    color: white;
+    text-align: center;
+    margin: 3% 0% 3% 0%; }
+  
+    p{
+      font-size: 120%;
+    color: white;
+    text-align: center;
+    margin: 3% 0% 3% 0%;
+    }
+  
+  .nosotros {
+    padding: 3% 6% 3% 6%; }
+  
+    .nav-link{
+      color: white;
+    }
+
+/********************************************* MAIN ****************************************************/
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 970px;
+    padding-left: 60px;
+}
+
+.hero h1{
+    color: white;
+}
+
+.hero img{
+    height: 70%;
+    width: 70%;
+    padding-left: 10px;
+}
+
+.nosotros {
+    text-align: center; }
+  
+  .produc {
+    padding: 3% 6% 3% 6%;}
+  
+    .card-body{
+    text-align: center;}
+  
+    .card-title,
+    .card-text{
+      color: black;
+    }
+  
+  .card {
+    margin: 1%; 
+    align-items: center;
+    margin-left: 26%;}
+  
+  .redes {
+    text-align: center;
+    padding: 3% 6% 3% 6%; }
+  
+  .icono {
+    margin: 4%; }
+  
+  .piePagina {
+    text-align: center;
+    padding-top: 1%; }
+    .piePagina .navFooter {
+      padding-bottom: 2%;
+    }
+
+    img{
+        border-radius: 2%;
+    }
